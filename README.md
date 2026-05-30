@@ -95,8 +95,7 @@ This document provides details on testing various services after running the `do
   docker compose down
   ```
 5. Troubleshooting
-  
-  a. Port already in use
+   Port already in use
 
     Stop existing containers:
     ```
