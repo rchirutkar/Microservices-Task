@@ -68,20 +68,20 @@ This document provides details on testing various services after running the `do
 
 1. Verify Each Service Runs Locally FIRST, Never containerize a broken app. 
 
-  For each service:
-
-  ```
-  cd user-service
-  npm install
-  npm start
-  ```
-
-  Test:
-    http://localhost:3000
-
-  Repeat for:
-    product-service
-    gateway-service
+    For each service:
+  
+    ```
+    cd user-service
+    npm install
+    npm start
+    ```
+  
+    Test:
+      http://localhost:3000
+  
+    Repeat for:
+      product-service
+      gateway-service
 
 2. Start all services using the `docker-compose` file:
    ```
@@ -91,9 +91,9 @@ This document provides details on testing various services after running the `do
 
 4. Stop Application
 
-  ```
-  docker compose down
-  ```
+    ```
+    docker compose down
+    ```
 5. Troubleshooting
    Port already in use
 
