@@ -58,11 +58,67 @@ This document provides details on testing various services after running the `do
 
 ---
 
+
+## Prerequisites
+- Docker Desktop
+- Docker Compose
+
+
 ## Instructions
-1. Start all services using the `docker-compose` file:
+
+1. Verify Each Service Runs Locally FIRST, Never containerize a broken app. 
+
+  For each service:
+
+  ```
+  cd user-service
+  npm install
+  npm start
+  ```
+
+  Test:
+    http://localhost:3000
+
+  Repeat for:
+    product-service
+    gateway-service
+
+2. Start all services using the `docker-compose` file:
    ```
    docker-compose up
    ```
-2. Once the services are running, use the above endpoints to verify the functionality.
+3. Once the services are running, use the above endpoints to verify the functionality.
 
-Happy testing!
+4. Stop Application
+
+  ```
+  docker compose down
+  ```
+5. Troubleshooting
+  
+  a. Port already in use
+
+    Stop existing containers:
+    ```
+    docker ps
+    docker stop <container-id>
+    ```
+    Rebuild containers
+    ```
+    docker compose up --build
+    ```
+
+
+# FINAL SUBMISSION STRUCTURE
+
+```
+Microservices/
+├── user-service/
+│   └── Dockerfile
+├── product-service/
+│   └── Dockerfile
+├── gateway-service/
+│   └── Dockerfile
+├── docker-compose.yml
+└── README.md
+```
