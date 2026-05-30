@@ -157,4 +157,26 @@ Microservices/
 
       <img width="540" height="146" alt="image" src="https://github.com/user-attachments/assets/057cbb28-a1e5-490b-8b10-88ce33700b77" />
   
+5. Docker compose down
+   
+     <img width="1042" height="213" alt="image" src="https://github.com/user-attachments/assets/b3bc3a09-0d2b-4bdf-9a88-7e2699307e85" />
 
+6. Updated Docker code for orders service (Additional)
+
+    <img width="1030" height="257" alt="image" src="https://github.com/user-attachments/assets/2024c066-2287-4ae4-ba06-126874db4457" />
+
+    <img width="1029" height="415" alt="image" src="https://github.com/user-attachments/assets/67c66c26-bf5c-46fd-963d-d04f20296dc0" />
+
+    <img width="379" height="141" alt="image" src="https://github.com/user-attachments/assets/2e7fffb1-93b2-4813-bf3c-5a00a8df8de6" />
+
+    <img width="1167" height="118" alt="image" src="https://github.com/user-attachments/assets/930569f4-a82f-4b5e-996c-7400b185bb95" />
+
+    <img width="1251" height="136" alt="image" src="https://github.com/user-attachments/assets/c66d3214-9c72-41a8-ac25-3448188f3c37" />
+
+7. Extra Docker logs to verify if services are running
+
+    <img width="740" height="154" alt="image" src="https://github.com/user-attachments/assets/74b5ca75-0fcf-4922-8c74-f230910e858e" />
+
+    <img width="658" height="103" alt="image" src="https://github.com/user-attachments/assets/ff2381c9-973e-4f0e-b2aa-dd3a5a80cfa7" />
+
+    
